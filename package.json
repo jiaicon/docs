@@ -1,0 +1,15 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "一款生成docs文档的应用",
+  "main": "index.js",
+  "scripts": {
+    "docs": "docsify serve ./docs --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "icon",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}
